@@ -28,6 +28,7 @@
 		"core-js-bundle": "^3.39.0",
 		"data-uri-to-buffer": "^6.0.2",
 		"html-entities": "^2.5.2",
+		"jsdoc-to-markdown": "^9.1.1",
 		"three": "^0.171.0",
 		"whatwg-fetch": "^3.6.20",
 		"ws": "^8.18.0",
