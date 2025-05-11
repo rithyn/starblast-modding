@@ -1,0 +1,2 @@
+'use strict';
+export default function MassivePrototypeDefinition(obj:Function,array:Array<string | [string, string]>):void{for(let i of array){let prop:string,field:string;if(typeof i!=="string")[prop,field]=i;else{prop=i;field=i}obj.prototype["set"+prop[0].toUpperCase()+prop.slice(1)]=function(data:any){return this.set({[field]:data})}}}
